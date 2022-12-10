@@ -447,7 +447,7 @@ body {
 
 @media (max-width: 768px){
   .folating-background {
-    top:-260%;
+    top:-300%;
   }
   .navbar {
     padding: 1.5rem 3rem;
