@@ -340,6 +340,7 @@ body {
   transition: all .8s ease-in-out;
   transform: scale(0);
   transform-origin: top right;
+  overflow: hidden;
 }
 
 .team-story-container.show-team-story{
@@ -444,7 +445,10 @@ body {
   color: #858585;
 }
 
-@media (width <= 768px){
+@media (max-width: 768px){
+  .folating-background {
+    top:-260%;
+  }
   .navbar {
     padding: 1.5rem 3rem;
   }
@@ -499,7 +503,7 @@ body {
   }
 }
 
-@media (width <= 992px){
+@media (max-width : 992px) and (min-width:769px){
   .header-title{
     width: 80%;
   }
@@ -541,7 +545,7 @@ body {
   }
 }
 
-@media (width <= 1240px){
+@media (max-width:1240px) and (min-width:993px){
   .header-title{
     width: 80%;
   }
